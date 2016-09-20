@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.nav li {
+  list-style: none; }
+
+#header_bg {
+  width: 100%;
+  height: 650px;
+  background: url(../images/header.jpg) no-repeat;
+  background-size: 100% 100%; }
+
+#header_bg .navbar-brand {
+  margin: 0;
+  padding: 0; }
+
+#header_navpd {
+  padding-top: 30px; }
+
+#header_bg .navbar-brand > img {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  margin-left: 20px; }
+
+.header_nav {
+  height: 70px;
+  background: transparent;
+  border: none; }
+
+#bs-example-navbar-collapse-1 > ul {
+  float: right;
+  font-size: 1.8rem; }
+#bs-example-navbar-collapse-1 > li > a {
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  margin: 0;
+  padding: 0;
+  color: #000; }
+#bs-example-navbar-collapse-1 .navbar-nav > a {
+  display: block;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: #333; }
+
+@media (max-width: 765px) {
+  #header_bg {
+    height: 350px; }
+    #header_bg .bs-border {
+      margin-top: 22px;
+      border: none;
+      width: 100%; }
+    #header_bg #bs-example-navbar-collapse-1 ul {
+      width: 100%;
+      background: #5E5354;
+      opacity: 0.9;
+      position: absolute;
+      z-index: 3; }
+      #header_bg #bs-example-navbar-collapse-1 ul > li > a {
+        width: 100%;
+        line-height: 35px;
+        color: white;
+        text-align: center;
+        position: relative; }
+        #header_bg #bs-example-navbar-collapse-1 ul > li > a:hover {
+          opacity: 0.7;
+          color: blue; }
+    #header_bg .header-content {
+      position: absolute;
+      top: 60px;
+      right: 18%;
+      text-align: center; }
+      #header_bg .header-content h1 {
+        font-family: "segoeui";
+        font-size: 40px;
+        font-weight: bolder;
+        color: #222c36; }
+      #header_bg .header-content h2 {
+        font-family: "segoeui";
+        font-size: 15px;
+        color: #222c36; } }
+.header-content {
+  position: absolute;
+  margin-top: 130px;
+  right: 18%;
+  text-align: center; }
+  .header-content h1 {
+    font-family: "segoeui";
+    font-size: 60px;
+    font-weight: bolder;
+    color: #222c36; }
+  .header-content h2 {
+    font-family: "segoeui";
+    font-size: 30px;
+    color: #222c36; }
+
+.icon-info {
+  background-color: #a02341;
+  width: 100%; }
+
+.info {
+  padding: 50px 0;
+  height: 300px;
+  text-align: center; }
+  .info p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    font-family: "msyi";
+    padding-bottom: 15px; }
+
+.hi-icon-wrap {
+  display: inline-block;
+  text-align: center; }
+
+.hi-icon {
+  display: inline-block;
+  font-size: 0px;
+  cursor: pointer;
+  margin: 15px 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #fff; }
+  .hi-icon:after {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box; }
+  .hi-icon:before {
+    speak: none;
+    width: 70px;
+    height: 70px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased; }
+
+.hi-icon-sofa:before {
+  content: "\e009";
+  background: url("../images/icons2.png") 0px 0px no-repeat; }
+
+.hi-icon-rack:before {
+  content: "\e00a";
+  background: url("../images/icons2.png") -70px 0px no-repeat; }
+
+.hi-icon-bed:before {
+  content: "\e002";
+  background: url("../images/icons2.png") -140px 0px no-repeat; }
+
+.hi-icon-effect-1 .hi-icon:after {
+  top: -6px;
+  left: 50%;
+  margin-left: -42px;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  padding: 7px;
+  box-shadow: 0 0 0 4px rgba(31, 28, 29, 0.5);
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+  -webkit-transform: scale(0.8);
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transition: transform 0.2s, opacity 0.2s;
+  transform: scale(0.8);
+  opacity: 0; }
+
+.hi-icon-effect-1a .hi-icon:hover {
+  background: rgba(31, 28, 29, 0.5);
+  color: #41ab6b; }
+  .hi-icon-effect-1a .hi-icon:hover:after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; }
+
+/*# sourceMappingURL=myscss.css.map */

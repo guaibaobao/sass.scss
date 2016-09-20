@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" cont	ent="width=device-width, initial-scale=1">
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="stylesheet" href="css/myscss.css">
+
+
+</head>
+<body>
+    <header id="header_bg">
+    	<nav class="navbar navbar-default header_nav">
+				<div class="container" id="header_navpd">
+				<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        			<span class="sr-only">Toggle navigation</span>
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+	        			<span class="icon-bar"></span>
+      				</button>
+  					<a class="navbar-brand" href="#">
+  						<img src="images/mlogo.png" alt="">
+  					</a>
+				</div>
+			    <div class="collapse navbar-collapse bs-border" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li><a href="#" class="scroll wow fadeInDownBig" data-wow-delay=".1s">Home</a></li>
+			        <li><a href="#" class="scroll wow fadeInDownBig" data-wow-delay=".3s">New</a></li>
+			        <li><a href="#" class="scroll wow fadeInDownBig" data-wow-delay=".5s">About Us</a></li>
+			        <li><a href="#" class="scroll wow fadeInDownBig" data-wow-delay=".7s">Catalogue</a></li>
+			        <li><a href="#" class="scroll wow fadeInDownBig" data-wow-delay=".9s">Contact</a></li>
+			      </ul>    
+			   	</div>
+			   	<div class="header-content">
+					<h1 class="wow bounceIn" data-wow-delay="0.50s"> Furniture Mart </h1>
+					<h2 class="wow fadeInUp" data-wow-delay="0.90s"> Some thing special </h2>
+				</div>
+				<div class="clearfix"> </div>
+	
+				</div>
+		</nav>
+		
+    </header>
+    <div class="icon-info">
+		<div class="container">
+			<div class="col-md-4 icon">
+				<div class="info">
+					<div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a ">
+						<a href="#set-1" class="hi-icon hi-icon-sofa"> </a>
+					</div>
+						
+					<p class="wow pulse">	Lorem Ipsum is simply dummy text of the
+						printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+						text ever since the 1500s, when an unknown printer took a galley 
+					</p>
+				</div>
+			</div>
+			
+			<div class="col-md-4 icon">
+				<div class="info">
+					<div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a ">
+						<a href="#set-1" class="hi-icon hi-icon-rack"> </a>
+					</div>
+						
+					<p class="wow pulse">	Lorem Ipsum is simply dummy text of the
+						printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+						text ever since the 1500s, when an unknown printer took a galley 
+					</p>
+				</div>
+			</div>
+	
+			<div class="col-md-4 icon">
+				<div class="info">
+					<div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a ">
+						<a href="#set-1" class="hi-icon hi-icon-bed"> </a>
+					</div>
+						
+					<p class="wow pulse">	Lorem Ipsum is simply dummy text of the
+						printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+						text ever since the 1500s, when an unknown printer took a galley 
+					</p>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div> 
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){     
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},2000);
+		});
+		});
+	</script>
+    </body>
+</html>
